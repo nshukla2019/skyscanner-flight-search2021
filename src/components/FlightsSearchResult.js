@@ -86,7 +86,7 @@ class Flights extends React.Component {
             quotes[i].Airline = carriers.find(carrier => carrier.CarrierId = quotes[i].OutboundLeg.CarrierIds).Name;
             quotes[i].Currency = currencies[0].Symbol;
             
-            // testing
+            // testing hello 
 
             console.log("hello");
          }
