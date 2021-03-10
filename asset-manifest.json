@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nshukla2019/react-project.git/static/css/main.1bc71c12.chunk.css",
+    "main.js": "/nshukla2019/react-project.git/static/js/main.bc223aaa.chunk.js",
+    "main.js.map": "/nshukla2019/react-project.git/static/js/main.bc223aaa.chunk.js.map",
+    "runtime-main.js": "/nshukla2019/react-project.git/static/js/runtime-main.bb6c6ef5.js",
+    "runtime-main.js.map": "/nshukla2019/react-project.git/static/js/runtime-main.bb6c6ef5.js.map",
+    "static/js/2.8ad59e1c.chunk.js": "/nshukla2019/react-project.git/static/js/2.8ad59e1c.chunk.js",
+    "static/js/2.8ad59e1c.chunk.js.map": "/nshukla2019/react-project.git/static/js/2.8ad59e1c.chunk.js.map",
+    "static/js/3.7733c6d2.chunk.js": "/nshukla2019/react-project.git/static/js/3.7733c6d2.chunk.js",
+    "static/js/3.7733c6d2.chunk.js.map": "/nshukla2019/react-project.git/static/js/3.7733c6d2.chunk.js.map",
+    "index.html": "/nshukla2019/react-project.git/index.html",
+    "static/css/main.1bc71c12.chunk.css.map": "/nshukla2019/react-project.git/static/css/main.1bc71c12.chunk.css.map",
+    "static/js/2.8ad59e1c.chunk.js.LICENSE.txt": "/nshukla2019/react-project.git/static/js/2.8ad59e1c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb6c6ef5.js",
+    "static/js/2.8ad59e1c.chunk.js",
+    "static/css/main.1bc71c12.chunk.css",
+    "static/js/main.bc223aaa.chunk.js"
+  ]
+}
