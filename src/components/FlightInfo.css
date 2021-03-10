@@ -1,0 +1,93 @@
+.airportinfo {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  /*border: 1px dotted black;*/
+  height: 80vh;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.user-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #c4eafd;
+  border: 1px solid #046b9f;
+}
+
+.TextField-without-border-radius fieldset {
+  border-radius: 0;
+}
+
+.search {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffd15c;
+  padding: 15px 15px;
+  height: 10px;
+  border-color: #046b9f;
+  border-width: 2px;
+  color: rgb(0, 0, 0);
+  display: block;
+  line-height: 0px;
+  font-size: 16px;
+}
+
+label {
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#queryInput {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 1px;
+  font-size: 13px;
+}
+
+#outlined-basic {
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  width: 140px;
+}
+
+#currencyDropDown {
+  width: 70px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+}
+
+#date {
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  /*padding-right: 5px;*/
+}
+
+#divForm {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+#searchGrid {
+  padding-left: 10px;
+}

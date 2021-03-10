@@ -1,0 +1,35 @@
+.MuiDataGrid-row {
+  background-color: #ffeec2;
+  display: block;
+  text-align: "center";
+  color: black;
+  display: block;
+  text-align: "center";
+}
+
+.MuiDataGrid-root {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  border-color: #046b9f;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.MuiDataGrid-colCell {
+  background-color: #ffd15c;
+}
+
+.MuiDataGrid-colCellTitle {
+  /* display: block;
+  text-align: center;
+  width: 100%; */
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.MuiDataGrid-footer {
+  background-color: #ffd15c;
+}
