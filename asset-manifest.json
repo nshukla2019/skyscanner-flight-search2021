@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-app-deploy/static/css/main.6b827a18.chunk.css",
-    "main.js": "/react-app-deploy/static/js/main.87be985d.chunk.js",
-    "main.js.map": "/react-app-deploy/static/js/main.87be985d.chunk.js.map",
-    "runtime-main.js": "/react-app-deploy/static/js/runtime-main.7e82816f.js",
-    "runtime-main.js.map": "/react-app-deploy/static/js/runtime-main.7e82816f.js.map",
-    "static/js/2.590ad67b.chunk.js": "/react-app-deploy/static/js/2.590ad67b.chunk.js",
-    "static/js/2.590ad67b.chunk.js.map": "/react-app-deploy/static/js/2.590ad67b.chunk.js.map",
-    "static/js/3.7733c6d2.chunk.js": "/react-app-deploy/static/js/3.7733c6d2.chunk.js",
-    "static/js/3.7733c6d2.chunk.js.map": "/react-app-deploy/static/js/3.7733c6d2.chunk.js.map",
-    "index.html": "/react-app-deploy/index.html",
-    "static/css/main.6b827a18.chunk.css.map": "/react-app-deploy/static/css/main.6b827a18.chunk.css.map",
-    "static/js/2.590ad67b.chunk.js.LICENSE.txt": "/react-app-deploy/static/js/2.590ad67b.chunk.js.LICENSE.txt"
+    "main.css": "/skyscanner-flight-search2021/static/css/main.6b827a18.chunk.css",
+    "main.js": "/skyscanner-flight-search2021/static/js/main.87be985d.chunk.js",
+    "main.js.map": "/skyscanner-flight-search2021/static/js/main.87be985d.chunk.js.map",
+    "runtime-main.js": "/skyscanner-flight-search2021/static/js/runtime-main.2f71a32b.js",
+    "runtime-main.js.map": "/skyscanner-flight-search2021/static/js/runtime-main.2f71a32b.js.map",
+    "static/js/2.f6a7bfe9.chunk.js": "/skyscanner-flight-search2021/static/js/2.f6a7bfe9.chunk.js",
+    "static/js/2.f6a7bfe9.chunk.js.map": "/skyscanner-flight-search2021/static/js/2.f6a7bfe9.chunk.js.map",
+    "static/js/3.7733c6d2.chunk.js": "/skyscanner-flight-search2021/static/js/3.7733c6d2.chunk.js",
+    "static/js/3.7733c6d2.chunk.js.map": "/skyscanner-flight-search2021/static/js/3.7733c6d2.chunk.js.map",
+    "index.html": "/skyscanner-flight-search2021/index.html",
+    "static/css/main.6b827a18.chunk.css.map": "/skyscanner-flight-search2021/static/css/main.6b827a18.chunk.css.map",
+    "static/js/2.f6a7bfe9.chunk.js.LICENSE.txt": "/skyscanner-flight-search2021/static/js/2.f6a7bfe9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e82816f.js",
-    "static/js/2.590ad67b.chunk.js",
+    "static/js/runtime-main.2f71a32b.js",
+    "static/js/2.f6a7bfe9.chunk.js",
     "static/css/main.6b827a18.chunk.css",
     "static/js/main.87be985d.chunk.js"
   ]
