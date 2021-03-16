@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header title="Nupur Shukla's Flight Search"></Header>
       <FlightSearch></FlightSearch>
-      <Footer title="API from SkyScanner"></Footer>
+      <Footer title="SkyScanner API"></Footer>
     </div>
   );
 }
