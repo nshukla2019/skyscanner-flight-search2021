@@ -6,6 +6,10 @@ This app is hosted on: https://nshukla2019.github.io/skyscanner-flight-search202
 
 GitHub Repo: https://github.com/nshukla2019/skyscanner-flight-search2021
 
+Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 
 Deliverables (all have been met): 
 	*let users view their flight options between two destinations for specific dates
