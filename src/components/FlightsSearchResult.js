@@ -7,14 +7,13 @@ import { withStyles } from '@material-ui/styles';
 import PropTypes from 'prop-types';
 
 
-const styles = theme => ({
+const styles = ({
     root: {
-        '& .super-app.positive': {
+        '& .super-app.minPrice': {
             backgroundColor: '#c4eafd',
             color: 'black',
             fontWeight: '600',
             font: 'Times New Roman',
-            //borderColor: '#046b9f'
         }
     }
 });
@@ -34,7 +33,6 @@ class Flights extends React.Component {
             columns: undefined,
             classes: undefined
         }
-
        
     }
     
@@ -61,14 +59,8 @@ class Flights extends React.Component {
         var currencies = this.props.flightsReponse.Currencies
         var places = this.props.flightsReponse.Places
         var carriers = this.props.flightsReponse.Carriers
-        
-        // console.log("quotes:"+ JSON.stringify(quotes));
-        // console.log("currencies:"+ JSON.stringify(currencies));
-        // console.log("places:"+ JSON.stringify(places));
-
+    
         var minimumPrice = 0;
-        
-        //console.log("before for loop");
 
         for(var i=0; i<quotes.length; i++) {
             if (i === 0) {
@@ -81,6 +73,7 @@ class Flights extends React.Component {
              if (minimumPrice > quotes[i].MinPrice) {
                  minimumPrice = quotes[i].MinPrice;
             }
+
             // put if statement to catch error if no carriers are found to match
             // how to handle more than 1 carrier
             quotes[i].Airline = carriers.find(carrier => carrier.CarrierId = quotes[i].OutboundLeg.CarrierIds).Name;
@@ -94,12 +87,12 @@ class Flights extends React.Component {
             { field: 'Airline', headerName: 'Airline', width: 150 },
             { field: 'originName', headerName: 'Origin', width: 250},
             { field: 'destinationName', headerName: 'Destination', width: 250 },
-            { field: 'DepartureDate', headerName: 'Departure Date', width: 150 },
+            { field: 'DepartureDate', headerName: 'Departure Date', width: 250 },
             { field: 'Currency', headerName: 'Cur.', width: 90 },
-            { field: 'MinPrice', headerName: 'Price', width: 141, cellClassName: (params) =>
+            { field: 'MinPrice', headerName: 'Price', width: 124, cellClassName: (params) =>
             clsx('super-app', 
             {
-              positive: params.value <= minimumPrice
+                minPrice: params.value <= minimumPrice
             }
             )}
        ];
