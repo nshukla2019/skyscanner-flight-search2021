@@ -22,7 +22,8 @@ Packages and Components Used:
 	~ Data Grid component to hold the API data based on user’s input
 		~ allows user to sort on each column by clicking a column title
 	~ Grid component to hold the form which the user inputs the Origin, Destination, Departure Date, Arrival Date, and Currency Type
-	~ TextField Component as the input fields for the Arrival and Departure Date\		~ allows the user to choose the date using a date picker and user does not need to type it in manually
+	~ TextField Component as the input fields for the Arrival and Departure Date\		
+	~ allows the user to choose the date using a date picker and user does not need to type it in manually
 		~ default value is also set today’s date
 	
 2) Moment
@@ -34,7 +35,7 @@ Packages and Components Used:
 API Calls:
 
 1) Called the SkyScanner Quotes API to get the JSON data after user fills out the form completely and hits search
-	~ JSON data is set as the state of an already defined variable in the FlightSearch Component
+	**JSON data is set as the state of an already defined variable in the FlightSearch Component
 	~ this variable is passed as props to the FlightsSearchResult component which is where the Data Grid is populated and displayed with the correct results
 
 2) Called the SkyScanner Currencies API in componentDidMount() to get the list of currencies SkyScanner uses
