@@ -18,12 +18,12 @@ Bonus:
 Packages and Components Used:
 
 1) Material UI
-	a) Data Grid component to hold the API data based on user’s input
-		i) allows user to sort on each column by clicking a column title
-	b) Grid component to hold the form which the user inputs the Origin, Destination, Departure Date, Arrival Date, and Currency Type
-	c) TextField Component as the input fields for the Arrival and Departure Date		
-		i) allows the user to choose the date using a date picker and user does not need to type it in manually
-		ii) default value is also set today’s date
+	1) Data Grid component to hold the API data based on user’s input
+		1) allows user to sort on each column by clicking a column title
+	2) Grid component to hold the form which the user inputs the Origin, Destination, Departure Date, Arrival Date, and Currency Type
+	3) TextField Component as the input fields for the Arrival and Departure Date		
+		1) allows the user to choose the date using a date picker and user does not need to type it in manually
+		2) default value is also set today’s date
 	
 2) Moment
 	*Moment .format() function to format the date 
