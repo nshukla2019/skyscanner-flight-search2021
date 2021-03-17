@@ -58,5 +58,5 @@ Other Key Implementations:
 	1) created a matchID function which takes in the “places” array from the Quotes JSON data to and an id as parameters to match the place ID to the origin and destination ID
 		1) if the given id matches the places[0].id, then this the origin so it returns places[0].Name
 		2) else, it is the destination so it returns places[1].Name
-    
+
 I had a great experience coding this React App and I cannot wait to keep expanding my React skills!!
