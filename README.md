@@ -7,12 +7,12 @@ This app is hosted on: https://nshukla2019.github.io/skyscanner-flight-search202
 GitHub Repo: https://github.com/nshukla2019/skyscanner-flight-search2021
 
 Deliverables (all have been met): 
-	1) let users view their flight options between two destinations for specific dates
-	2) allows users to select their currency preference when searching for flights
-	3) use intuitive UI principles to highlight or call out the cheapest flights for a user running a search
+1) let users view their flight options between two destinations for specific dates
+2) allows users to select their currency preference when searching for flights
+3) use intuitive UI principles to highlight or call out the cheapest flights for a user running a search
 	
 Bonus:		
-	4) when all flight options are listed, allow the user to sort the results by the cheapest to highest priced and vice versa
+4) when all flight options are listed, allow the user to sort the results by the cheapest to highest priced and vice versa
 
 
 Packages and Components Used:
